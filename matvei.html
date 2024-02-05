@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Привет как дела?</title>
+<style>
+    body {
+        background-color: black;
+        color: white;
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+    #dvd-logo {
+        position: fixed;
+        top: 255px;
+    left: 175px;
+        animation: move 3s infinite;
+    }
+    @keyframes move {
+        0% { transform: translate(0, 0); }
+        25% { transform: translate(5vw, -5vh); }
+        50% { transform: translate(8vw, 0); }
+        75% { transform: translate(5vw, 5vh); }
+        100% { transform: translate(0, 0); }
+    }
+</style>
+</head>
+<body>
+    <h1>Вам совсем нечем заняться?</h1>
+    <div id="dvd-logo">привет Матвей</div>
+</body>
+</html>
